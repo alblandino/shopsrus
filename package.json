@@ -1,0 +1,31 @@
+{
+  "name": "shopsrus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "serve": "babel-node app/",
+    "start": "nodemon --exec npm run serve"
+  },
+  "keywords": [],
+  "author": "Joel Jaime <joel.alexander.jaime@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@faker-js/faker": "^6.2.0",
+    "@types/node": "^17.0.29",
+    "nodemon": "^2.0.15"
+  }
+}

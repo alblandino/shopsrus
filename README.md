@@ -56,7 +56,7 @@ npm start
 Nota: *en el archivo .env hay algunas credenciales a una base de datos in cloud, es una base de datos exclusiva para esto y realmente no importa que las credenciales esten publicas debido a que cada vez que se corre la aplicacion se re-crean las tablas y los datos de las mismas.*
 
 ### Coleccion de Postman
-> *En esta [coleccion de Postman](https://app.getpostman.com/join-team?invite_code=4aa954edda513ed0584059cb880d5b9d&target_code=5bbd08558cb06fb4158a37e805b3834a), se encuentran todos los endpoints registrados para poder hacer uso del API Rest de la misma*
+> *En esta [coleccion de Postman](https://www.getpostman.com/collections/af214e45f76388ee5a59), se encuentran todos los endpoints registrados para poder hacer uso del API Rest de la misma*
 
 ### Dependencias
 - dotenv: Para hacer uso de las variables de entorno dentro del objeto process.

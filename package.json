@@ -4,8 +4,8 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "serve": "babel-node app/",
-    "start": "nodemon --exec npm run serve"
+    "start": "babel-node app/",
+    "dev:start": "nodemon --exec npm run start"
   },
   "keywords": [],
   "author": "Joel Jaime <joel.alexander.jaime@gmail.com>",
